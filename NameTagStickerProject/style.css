@@ -2,17 +2,19 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
+    font-family:cursive;
 }
 
 body{
     display:flex;
     justify-content:center;
     align-items:center;
+    min-height:100vh;
     background: linear-gradient(
         90deg,
-        rgba(131, 58, 180, 0.9),
-        rgba(253, 29, 29, 0.9),
-        rgba(252, 176, 69, 0.9)
+        rgba(131, 58, 180, 0.9) 0%,
+        rgba(253, 29, 29, 0.9) 35%,
+        rgba(252, 176, 69, 0.9) 100%
     );
     overflow:hidden;
 }
@@ -22,13 +24,14 @@ body{
 
 }
 .container{
+    
     width:300px;
     height:200px;
     display:inline-block;
     border-radius:20px;
-    border: 5px solid #fff;
-    background: #fff;
-    box-shadow: 0 0 8px rgba(0,0,0,1);
+    border: 5px solid #761616;
+    background: #135993;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease-in-out,
                 background 0.3s ease-in-out,
                 box-shadow 0.3s ease-in-out;
@@ -40,13 +43,13 @@ body{
     line-height:48px;
 }
 
-.subtext{
+.subText{
     font-weight:700;
     font-size:16px;
     line-height: 14px;;
 }
 
-.Heading{
+.heading{
     height: 70px;
     color: #fff;
     text-align: center;
