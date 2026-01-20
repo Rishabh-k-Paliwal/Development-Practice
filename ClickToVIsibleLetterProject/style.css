@@ -1,0 +1,26 @@
+*{
+    box-sizing:0;
+    margin:0;
+    padding:0;
+    color:#fff;
+    user-select:none;
+    font-family:cursive;
+}
+
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+div{
+    font-size: 3em;
+    cursor: pointer;    
+}
+
+#i,#s,#h,#a,#b,#h2,#Complete{
+    display: none;
+}
