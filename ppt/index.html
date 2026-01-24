@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Autism Screening Platform</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f5f7fb;
+      color: #1f2933;
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      padding: 40px 60px;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 20px;
+    }
+
+    h1 {
+      font-size: 38px;
+      margin: 0;
+      color: #0f172a;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #475569;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .box {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .box h2 {
+      font-size: 20px;
+      margin-bottom: 12px;
+      color: #0f172a;
+    }
+
+    .box ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    .box ul li {
+      margin-bottom: 10px;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    .flow {
+      font-family: monospace;
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 18px;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .footer {
+      background: #e0f2fe;
+      border-left: 6px solid #0284c7;
+      padding: 14px 18px;
+      border-radius: 8px;
+      font-size: 15px;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide">
+    <!-- TITLE -->
+    <div>
+      <h1>AI-Enabled Early Autism Screening & Doctor Assistance Platform</h1>
+      <div class="subtitle">
+        Multimodal AI system for early risk detection, diagnosis support & care continuity
+      </div>
+    </div>
+
+    <!-- PROBLEM -->
+    <div class="box">
+      <h2>Problem Statement</h2>
+      <ul>
+        <li>Autism diagnosis is often delayed due to limited specialists.</li>
+        <li>Early behavioral signs are subtle and easily missed.</li>
+        <li>Late intervention reduces long-term developmental outcomes.</li>
+      </ul>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+      <!-- MODULES -->
+      <div class="box">
+        <h2>Proposed 3-Module System</h2>
+        <ul>
+          <li>
+            <b>Module 1 – Objective Assessment</b><br />
+            Computer Vision analyzes eye contact, facial expressions, gestures,
+            and attention patterns from child video data.
+          </li>
+          <li>
+            <b>Module 2 – Subjective Assessment</b><br />
+            Structured parent observation questionnaires capture daily behavioral
+            patterns and developmental concerns.
+          </li>
+          <li>
+            <b>Module 3 – Combined Decision Module</b><br />
+            Fuses objective + subjective insights to generate explainable risk
+            indicators for doctor assistance.
+          </li>
+        </ul>
+      </div>
+
+      <!-- FLOW -->
+      <div class="box">
+        <h2>System Flow</h2>
+        <div class="flow">
+          Child Video Data ─────────▶ Objective AI (Computer Vision)<br />
+                                      │<br />
+          Parent Questionnaire ─────▶ Subjective Analysis Module<br />
+                                      │<br />
+                                      ▼<br />
+                         Combined Decision-Making Engine<br />
+                                      │<br />
+                                      ▼<br />
+                          Doctor Assistance Dashboard<br />
+                                      │<br />
+                                      ▼<br />
+                         Therapy Planning & Progress Tracking
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER / ETHICS -->
+    <div class="footer">
+      <b>Ethical & Clinical Positioning:</b>
+      This system does <b>not replace doctors</b>. It acts as a decision-support
+      tool to enable earlier screening, reduce diagnostic delays, and support
+      personalized intervention planning with human-in-the-loop oversight.
+    </div>
+  </div>
+</body>
+</html>
